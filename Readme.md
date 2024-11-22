@@ -58,10 +58,10 @@ Output is saved in quantiles_output.txt
 Q5: Plotting big matrix (Linux + Gnuplot)
 
 Explanation of Gnuplot script : - 
-Postscript - for efficient plotting
-matrix option - Gnuplot treats the data as a grid
-set Palette - defines the colour schemes
-cbrange - colour range
+Postscript - for efficient plotting,
+matrix option - Gnuplot treats the data as a grid,
+set Palette - defines the colour schemes,
+cbrange - colour range,
 output - big_matrix. eps 
 
 converting eps to pdf - ps2pdf big_matrix.eps big_matrix.pdf
