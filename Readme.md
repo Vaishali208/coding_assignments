@@ -31,6 +31,16 @@ Tools I used -
 ggplot2: For creating the line plot.
 optparse: For handling command-line arguments in R. 
 
+Q3:Merge multiple files (R + Linux Command) 
+
+Explanation of the R script : -
+ Reads a list of file paths from file list_q3.tsv , processes each file by reading its content, renames columns depending on the number of columns in each file , joins all files based on a common column(the first column, v1), outputs the final joined data to the terminal (standard output).
+
+Command to run the script - Rscript join_list_of files.R home/bec51320.iitr/~workplace/bec-513-coding-questions/data/list_q3.tsv > home/bec51320.iitr/~workplace/bec-513-coding-questions/data/join_output.tsv
+
+Tools I used - 
+Tidyverse : tool that do cleaning, transforming, visualizing, and modeling data.
+
 Q4: Label with quantiles (Python)
 
 Explanation of the code : -
@@ -42,4 +52,17 @@ The retbins=True option returns the bins used to define the quantiles.
 Output:For each number, the script outputs the value, the quantile it belongs to, and the quantile range.
 
 Command to run the script -  cat /home/bec51320.iitr/~workplace/bec-513-coding-questions/data/first_hundred_numbers.tsv | python group_in_quantiles.py 4
+
+Q5: Plotting big matrix (Linux + Gnuplot)
+
+Explanation of Gnuplot script : - 
+Postscript - for efficient plotting
+matrix option - Gnuplot treats the data as a grid
+set Palette - defines the colour schemes
+cbrange - colour range
+output - big_matrix. eps 
+
+converting eps to pdf - ps2pdf big_matrix.eps big_matrix.pdf
+
+Command to run the script - gnuplot plot_heatmap.gp
 

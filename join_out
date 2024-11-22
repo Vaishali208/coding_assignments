@@ -1,8 +1,0 @@
-[1] "File List (Relative Paths):"
-[1] "data/q3_first.tsv"  "data/q3_second.tsv"
-[1] "File List (Absolute Paths):"
-[1] "/home/bec51320.iitr/~workplace/bec-513-coding-questions/data//data/q3_first.tsv" 
-[2] "/home/bec51320.iitr/~workplace/bec-513-coding-questions/data//data/q3_second.tsv"
-[1] "Files that do not exist:"
-[1] "/home/bec51320.iitr/~workplace/bec-513-coding-questions/data//data/q3_first.tsv" 
-[2] "/home/bec51320.iitr/~workplace/bec-513-coding-questions/data//data/q3_second.tsv"
