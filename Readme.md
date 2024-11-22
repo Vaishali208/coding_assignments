@@ -1,11 +1,9 @@
 Q1: Selecting lines from stdin (Python Code + Linux Command)
 
 Explanation : -The task is to match the gene IDs from the query file to the corresponding entries in the big data file and return the entire line where a match is found. The code should not assume that the pattern is in a specific column.
-
 Explanation of the Python Code:
 Load the Patterns: The function load_patterns() reads the query file and stores each line in a set.
 Print the Patterns: The script prints the patterns to stdout, which will be useful for piping into Linux commands.
-
 Explanation of the Linux Command:
 Extract Patterns: The Python script reads data/to_select.tsv and writes the patterns to patterns.txt.
 Filter the Data:
@@ -34,7 +32,7 @@ optparse: For handling command-line arguments in R.
 Q3:Merge multiple files (R + Linux Command)
 
 Explanation of the R script : -
- Reads a list of file paths from file list_q3.tsv , processes each file by reading its content, renames columns depending on the number of columns in each file , joins all files based on a common column(the first column, v1), outputs the final joined data to the terminal (standard output).
+Reads a list of file paths from file list_q3.tsv , processes each file by reading its content, renames columns depending on the number of columns in each file , joins all files based on a common column(the first column, v1), outputs the final joined data to the terminal (standard output).
 
 Command to run the script - Rscript join_list_of files.R home/bec51320.iitr/~workplace/bec-513-coding-questions/data/list_q3.tsv > home/bec51320.iitr/~workplace/bec-513-coding-questions/data/join_output.tsv
 
