@@ -53,6 +53,8 @@ Output:For each number, the script outputs the value, the quantile it belongs to
 
 Command to run the script -  cat /home/bec51320.iitr/~workplace/bec-513-coding-questions/data/first_hundred_numbers.tsv | python group_in_quantiles.py 4
 
+Output is saved in quantiles_output.txt
+
 Q5: Plotting big matrix (Linux + Gnuplot)
 
 Explanation of Gnuplot script : - 
